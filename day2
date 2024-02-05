@@ -1,0 +1,44 @@
+Title: Exploring the Difference: Document Object in JavaScript
+
+Introduction:
+
+JavaScript, the dynamic scripting language that powers interactivity on the web, is built upon a robust set of objects and APIs. Among these, the Document Object.
+
+Understanding the Document:
+
+The Document Object represents the entire HTML document within a web page. It serves as a hierarchical tree structure, with each HTML element being a node. The Document Object provides developers with a means to manipulate and interact with the content of a web page dynamically.
+
+Distinguishing Differences:
+Window Object play pivotal roles, each contributing to the functionality and structure of web pages.
+
+Scope:
+The Document Object is limited to the content of a specific HTML document.
+
+Hierarchy:
+The Document Object represents the hierarchical structure of HTML elements within a specific documents
+
+Title: Exploring the Difference Window Object
+
+Introduction:
+
+Window Object play pivotal roles, each contributing to the functionality and structure of web pages.
+
+Understanding the Window Object:
+
+On the other hand, the Window Object represents the browser window or tab that hosts the Document Object. It serves as a global object, providing access to various browser-related properties and methods. The Window Object is not limited to a single document; it encompasses the entire browser environment.
+
+Key characteristics of the Window Object include:
+
+Global Scope: The Window Object is global, meaning its properties and methods are accessible throughout the entire JavaScript runtime. Variables declared without the var, let, or const keywords become properties of the Window Object.
+
+Distinguishing Differences:
+The Window Object encompasses the entire browser environment and serves as the global scope for JavaScript.
+
+Scope:
+The Window Object encompasses the entire browser environment and serves as the global scope for JavaScript.
+
+Hierarchy:
+The Window Object operates at a higher level, encapsulating the browser window or tab.
+
+Manipulation:
+The Window Object provides control over browser-related properties, timers, and events.
